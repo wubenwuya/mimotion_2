@@ -74,8 +74,8 @@ def getBeijinTime():
         pattern = re.compile('\\d{4}-\\d{2}-\\d{2} (\\d{2}):\\d{2}:\\d{2}')
         find = re.search(pattern, result)
         hour = find.group(1)
-        min_ratio = max(math.ceil((int(hour) / 3) - 1), 0)
-        max_ratio = math.ceil(int(hour) / 3)
+        min_ratio = max(math.ceil(int(hour) / 3), 0)
+        max_ratio = math.ceil(int(hour) / 3 + 1)
         min_1 = 1500 * min_ratio
         max_1 = 1500 * max_ratio
         min_1 = int(K * min_1)
