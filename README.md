@@ -4,7 +4,6 @@
 [![GitHub stars](https://img.shields.io/github/stars/huangshihai/mimotion?style=flat-square)](https://github.com/huangshihai/mimotion/stargazers)
 [![GitHub issues](https://img.shields.io/github/issues/huangshihai/mimotion?style=flat-square)](https://github.com/huangshihai/mimotion/issues)
 
-
 # 小米运动自动刷步数（支持邮箱登录）
 
 > 小米运动自动刷步数
